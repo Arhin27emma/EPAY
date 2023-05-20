@@ -1,0 +1,764 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.nav-bar{
+    background-image: url(./img/bg\ new.jpg);
+    background-size: 100% 43.7rem;
+    background-repeat: no-repeat; 
+    height: 100vh;
+    width: 100%;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 6.5rem;
+}
+
+nav ul li{
+    line-height: 3rem;
+    padding: 15px;
+    font-size: 15px;
+}
+
+nav ul li a{
+    color: aliceblue;
+}
+
+.logo{
+    color: white;
+    font-size: 15px;
+    line-height: 4rem;
+    padding-left: 5rem;
+    display: flex;
+}
+.logo span{
+    font-size: 20px;
+    display: none;
+}
+
+.background{
+    color: white;
+    margin: 20px 0 0 7rem;
+    width: 23rem;
+}
+
+.background h1{
+    font-size: 50px;
+    position: absolute;
+    top: 5rem;
+    width: 23rem;
+}
+
+.background img{
+    width: 13rem;
+}
+
+.background .shape{
+    position: relative;
+    top: 2.5rem;
+    left: 7rem;
+}
+
+.next-bg{
+    margin-top: 6.5rem;
+    display: flex;
+    width: 37rem;
+}
+
+.test{
+    margin-top: 20px;
+    width: 17rem;
+    font-size: 18px;
+}
+
+.next-bg img{
+    width: 7rem;
+    height: 3rem;
+    margin-right: 10rem;
+}
+
+.rem img{
+    position: relative;
+    bottom: 2.5rem;
+    width: 15rem;
+    height: 21rem;
+}
+
+.bank-acount{
+    position: absolute;
+    right: 10rem;
+    top: 8rem;
+    width: 20rem;
+    background: rgb(37, 45, 52);
+    text-align: center;
+}
+
+.bank-acount h3{
+    margin: 25px 0 25px 0;
+    text-align: center;
+    
+
+}
+
+.bank-acount .send{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 10px rgb(0 0 0/0.2);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgb(115, 113, 113);
+    margin: 15px 15px 0 15px;
+    text-align: center;
+}
+
+.bank-acount .sends{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-left: 1px solid rgb(223, 222, 222);
+    margin: 15px 15px 0 15px;
+    text-align: center;
+}
+
+.list{
+    background-color: transparent;
+    color: white;
+}
+
+.list option{
+    background-color: transparent;
+}
+
+
+
+.send .list{
+    background-color: transparent;
+    box-shadow: 0 3px 10px rgb(0 0 0/0.5);
+    color: white;
+}
+
+.sendbtn input{
+    background: orange;
+    padding: 10px;
+    width: 18rem;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    margin: 20px 0 30px 0;
+}
+
+.last{
+    position: absolute;
+    top: 27rem;
+}
+
+.last p{
+    text-align: left;
+}
+
+.main{
+    background: white;
+}
+
+.main-flex{
+    display: flex;
+}
+
+.flex-one{
+    background: rgb(57, 146, 136);
+    width: 150%;
+    padding: 15px;
+}
+
+
+.flex-one h3{
+    font-size: 40px;
+    color: white;
+    padding-top: 30px;
+}
+
+.flex-two{
+    background: rgba(234, 230, 230, 0.283);
+    border-radius: 5px;
+    border-right: 1px solid rgb(210, 208, 203);
+    width: 100%;
+    padding: 3rem 2rem 3rem 5rem;
+}
+
+.flex-two img{
+    width: 50px;
+    padding-bottom: 20px;
+}
+
+.flex-two h2{
+    padding-bottom: 10px;
+}
+
+.last-part{
+    display: flex;
+    height: 30rem;
+}
+
+.pictures{
+    margin: 8rem 7rem;
+    display: flex;
+
+}
+
+.pictures .man{
+    position: relative;
+    right: 18rem;
+    
+}
+
+.pictures .users{
+    position: relative;
+    top: 17rem;
+    right: 25rem;
+    box-shadow: 0 3px 10px rgb(0 0 0/0.3);
+    background: rgb(255, 255, 255);
+    width: 15rem;
+    height: 12rem;
+    margin-bottom: 30rem;
+}
+
+.users img{
+    position: relative;
+    top: 2rem;
+    left: 6rem;
+    border-radius: 50px;
+    width: 50px;
+}
+
+.users .txt{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.users .txt h3{
+    padding-bottom: 10px;
+}
+
+.bg-txt{
+    height: 33rem;
+    width: 30rem;
+    position: relative;
+    top: 8rem;
+    right: 25rem;
+   
+}
+
+.bg-txt h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+    width: 30rem;
+}
+
+.withdraw{
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.withdraw img{
+    padding-right: 10px;
+    width: 30px;
+}
+
+.learn-img{
+    margin-top: 10px;
+}
+
+.learn-img img{
+    width: 10rem;
+    margin-top: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+
+    body{
+       
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+
+    .nav-bar{
+        width: 139.5vh;
+    }
+    
+    nav ul{
+        display: flex;
+        margin-right: 3.9rem;
+    }
+    nav ul li{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .background h1{
+        font-size: 45px;
+    }
+
+    .background .shape{
+        position: relative;
+        top: 2.5rem;
+        left: 6rem;
+    }
+
+    .shape img{
+        width: 12rem;
+    }
+
+    .test p{
+        font-size: 18px;
+        position: relative;
+        bottom: 1rem;
+        right: 4rem;
+    }
+
+    .rem img{
+        width: 15rem;
+        height: 20rem;
+        position: relative;
+        bottom: 0;
+        right: 2rem;
+    }
+
+    .bank-acount{
+        width: 20rem;
+        margin-right: 5rem;
+    }
+
+    .bank-acount .send{
+        width: 18rem;
+        
+    }
+
+    .flex-one{
+        width: 90%;
+    }
+
+    .flex-one h3{
+        font-size: 35px;
+    }
+
+    .flex-two{
+        width: 60%;
+    }
+
+    .main{
+        position: relative;
+        bottom: 1.8rem;
+        width: 84.7%;
+    }
+
+    .last-part .pictures{
+        margin: 6rem 7rem;
+
+    }
+
+    .bg-txt{
+        position: relative;
+        top: 6rem;
+        right: 27rem;
+        width: 20rem;
+        
+
+    }
+
+    .bg-txt p{
+        width: 23rem;
+    }
+}
+
+@media screen and (max-width: 978px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-bar{
+        width: 165vh;
+    }
+    
+    nav ul{
+        display: flex;
+        margin-right: 3.5rem;
+    }
+    nav ul li{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .background h1{
+        font-size: 40px;
+        width: 18rem;
+    }
+
+    .background .shape{
+        position: relative;
+        top: 2.5rem;
+        
+    }
+
+    .shape img{
+        width: 10rem;
+    }
+
+    .test p{
+        font-size: 15px;
+        width: 13rem;
+        position: relative;
+        bottom: 1rem;
+        right: 4rem;
+    }
+
+    .rem img{
+        width: 13rem;
+        height: 15rem;
+        position: relative;
+        bottom: 0.4rem;
+        right: 2rem;
+    }
+
+    .bank-acount{
+        width: 20rem;
+        position: absolute;
+        left: 35rem;
+    }
+
+    .bank-acount .send{
+        width: 18rem;
+        height: 60px;
+    }
+
+    .y-sends{
+        position: relative;
+        bottom: 10px;
+
+    }
+
+    .last{
+        position: absolute;
+        top: 25rem;
+        
+    }
+
+    .flex-one{
+        width: 90%;
+    }
+
+    .flex-one h3{
+        font-size: 30px;
+        margin-top: 20px;
+        height: 10rem;
+    }
+
+    .flex-two{
+        width: 60%;
+        height: 15rem;
+    }
+
+
+    .flex-two h2{
+        font-size: 18px;
+    }
+
+    .flex-two p{
+        font-size: 15px;
+    }
+
+    .main{
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
+    .last-part .pictures{
+        margin: 6rem 7rem;
+    }
+
+    .pictures span img{
+        width: 20rem;
+    }
+
+    .pictures .man img{
+        width: 15.4rem;
+    }
+
+    .users{
+        width: 10rem;
+    }
+
+    .users h3{
+        font-size: 15px;
+    }
+
+    .users p{
+        font-size: 15px;
+        width: 10rem;
+        margin-left: 35px;
+    }
+
+    .bg-txt{
+        position: relative;
+        top: 6rem;
+        right: 27rem;
+        width: 20rem;
+
+    }
+
+    .bg-txt h1{
+        width: 18rem;
+        font-size: 35px;
+        
+    }
+
+    .bg-txt p{
+        width: 18rem;
+        font-size: 15px;
+    }
+
+    .withdraw h4{
+        font-size: 15px;
+    }
+
+    .learn-img img{
+        width: 10rem;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+    body{
+       
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+
+    .nav-bar{
+        width: 155.8vh;
+        height: 100vh;
+    }
+
+    .logo{
+        font-size: 50px;
+    }
+
+    .logo span{
+        display: block;
+        position: absolute;
+        left: 54rem;
+        font-size: 50px;
+        
+        
+    }
+    
+
+    .logo span.close{
+        display: none;
+    }
+    
+    nav ul{
+        display: none;
+        width: 20rem;
+        height: 30rem;
+        background-color: rgb(13, 75, 94);
+        position: relative;
+        top: 3.8rem;
+        left: 3.2rem;
+
+        
+    }
+    nav ul li{
+        font-size: 25px;
+        padding-top: 37px;
+        text-align: center;
+        border-bottom: 1px solid rgb(159, 192, 181);
+        box-shadow: 10px;
+    }
+
+    .background{
+        display: block;
+    }
+
+    .background h1{
+        font-size: 70px;
+        width: 40rem;
+    }
+
+    .next-bg{
+        position: relative;
+        top: 5rem;
+    }
+
+    .next-bg img{
+        width: 10rem;
+    }
+
+    .next-bg .test p{
+        font-size: 25px;
+    }
+
+    .background .shape{
+        position: relative;
+        top: 2.5rem;
+
+        
+    }
+
+    .shape img{
+        width: 10rem;
+    }
+
+    .test p{
+        font-size: 15px;
+        width: 13rem;
+        position: relative;
+        bottom: 1rem;
+        right: 4rem;
+    }
+
+    .rem img{
+        width: 13rem;
+        height: 15rem;
+        position: relative;
+        bottom: 0.4rem;
+        right: 2rem;
+    }
+
+    .bank-acount{
+        width: 20rem;
+        position: absolute;
+        left: 35rem;
+        top: 10rem;
+    }
+
+    .bank-acount .send{
+        width: 18rem;
+        height: 60px;
+    }
+
+    .y-sends{
+        position: relative;
+        bottom: 10px;
+
+    }
+
+    .last{
+        position: absolute;
+        top: 25rem;
+        
+    }
+
+    .flex-one{
+        width: 90%;
+    }
+
+    .flex-one h3{
+        font-size: 30px;
+        margin-top: 20px;
+        height: 10rem;
+    }
+
+    .flex-two{
+        width: 60%;
+        height: 15rem;
+    }
+
+
+    .flex-two h2{
+        font-size: 18px;
+    }
+
+    .flex-two p{
+        font-size: 15px;
+    }
+
+    .main{
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
+    .last-part .pictures{
+        margin: 6rem 7rem;
+    }
+
+    .pictures span img{
+        width: 20rem;
+    }
+
+    .pictures .man img{
+        width: 15.4rem;
+    }
+
+    .users{
+        width: 10rem;
+    }
+
+    .users h3{
+        font-size: 15px;
+    }
+
+    .users p{
+        font-size: 15px;
+        width: 10rem;
+        margin-left: 35px;
+    }
+
+    .bg-txt{
+        position: relative;
+        top: 6rem;
+        right: 27rem;
+        width: 20rem;
+
+    }
+
+    .bg-txt h1{
+        width: 18rem;
+        font-size: 35px;
+        
+    }
+
+    .bg-txt p{
+        width: 18rem;
+        font-size: 15px;
+    }
+
+    .withdraw h4{
+        font-size: 15px;
+    }
+
+    .learn-img img{
+        width: 10rem;
+    }
+}
